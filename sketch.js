@@ -23,7 +23,7 @@ function setup() {
 		isStatic:false,
 		restitution: 0.9,
 		friction: 0,
-		density: 1.2
+		density: 1.0
 	}
 	ball = Bodies.circle(100,100,20,ball_options);
 	World.add(world,ball); 
